@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">DouaneTemporelle</string>
+
+    <string name="verdict">VERDICT</string>
+    <string name="resultat_voyage">Résultat du voyage</string>
+    <string name="nouveau_voyageur">Nouveau voyageur</string>
+
 </resources>
