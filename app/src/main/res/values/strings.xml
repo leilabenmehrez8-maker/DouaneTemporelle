@@ -1,5 +1,17 @@
 
 <resources>
+    <string name="app_name">DouaneTemporelle</string>
+    <!-- ١ - نصوص جواز السفر الزمني -->
+    <string name="passeport_yo">Passeport temporel</string>
+    <string name="titre_passeport_yo">PASSEPORT TEMPOREL</string>
+    <string name="nom_yo">Nom :</string>
+    <string name="naissance_yo">Naissance :</string>
+    <string name="destination_yo">Destination :</string>
+    <string name="age_yo">Age temporel :</string>
+    <string name="motif_yo">Motif :</string>
+    <string name="analyse_yo">Analyse temporelle</string>
+    <string name="approuver_yo">Approuver le saut temporel</string>
+    <string name="refuser_yo">Refuser (Risque de paradoxe)</string>
     <string name="app_name">Douane Temporelle</string>
     <string name="titre">DOUANE TEMPORELLE</string>
     <string name="description">Enregistrement du voyageur</string>
