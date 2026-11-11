@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_resultat_gh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#FFFFFF">
+
+    <!-- ١ - عنوان القرار النهائي -->
+    <TextView
+        android:id="@+id/txt_verdict_gh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/verdict"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="28dp" />
+
+    <!-- ٢ - الرسالة الخاصة بالمسافر -->
+    <TextView
+        android:id="@+id/txt_message_gh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resultat_voyage"
+        android:textSize="21sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="36dp" />
+
+    <!-- ٣ - زر تسجيل مسافر جديد -->
+    <Button
+        android:id="@+id/btn_nouveau_gh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nouveau_voyageur"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#1E293B"
+        android:minHeight="56dp" />
+
+</LinearLayout>
