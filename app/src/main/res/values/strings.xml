@@ -9,7 +9,7 @@
     <string name="verdict_approved">VOYAGE APPROUVE</string>
     <string name="verdict_refused">VOYAGE REFUSE</string>
     <string name="message_approved">Bon voyage %1$s !</string>
-    <string name="message_refused">%1$s est en etat d'arrestation temporelle</string>
+    <string name="message_refused">%1$s est en etat d\'arrestation temporelle</string>
     <string name="new_traveler">Nouveau voyageur</string>
     <string name="verdict">VERDICT</string>
     <string name="resultat_voyage">Résultat du voyage</string>
