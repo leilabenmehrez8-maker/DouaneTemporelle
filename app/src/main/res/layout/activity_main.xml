@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F1F5F9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- ١ - عنوان التطبيق -->
+        <TextView
+            android:id="@+id/txt_titre_la"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titre"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#1E3A8A"
+            android:gravity="center"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/txt_description_la"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/description"
+            android:textSize="17sp"
+            android:textColor="#475569"
+            android:gravity="center"
+            android:layout_marginBottom="28dp" />
+
+        <!-- ٢ - اسم المسافر -->
+        <TextView
+            android:id="@+id/txt_label_nom_la"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nom"
+            android:textStyle="bold"
+            android:textColor="#0F172A" />
+
+        <EditText
+            android:id="@+id/edit_nom_la"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_nom"
+            android:inputType="textPersonName"
+            android:autofillHints="name"
+            android:layout_marginBottom="20dp" />
+
+        <!-- ٣ - سنة ميلاد المسافر -->
+        <TextView
+            android:id="@+id/txt_label_naissance_la"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/naissance"
+            android:textStyle="bold"
+            android:textColor="#0F172A" />
+
+        <EditText
+            android:id="@+id/edit_naissance_la"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_naissance"
+            android:inputType="number"
+            android:maxLength="4"
+            android:importantForAutofill="no"
+            android:layout_marginBottom="20dp" />
+
+        <!-- ٤ - سنة الوجهة الزمنية -->
+        <TextView
+            android:id="@+id/txt_label_destination_la"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/destination"
+            android:textStyle="bold"
+            android:textColor="#0F172A" />
+
+        <EditText
+            android:id="@+id/edit_destination_la"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_destination"
+            android:inputType="number"
+            android:maxLength="4"
+            android:importantForAutofill="no"
+            android:layout_marginBottom="24dp" />
+
+        <!-- ٥ - اختيار سبب السفر -->
+        <TextView
+            android:id="@+id/txt_label_motif_la"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/motif"
+            android:textStyle="bold"
+            android:textColor="#0F172A"
+            android:layout_marginBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/radio_motif_la"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="24dp">
+
+            <RadioButton
+                android:id="@+id/radio_tourisme_la"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tourisme" />
+
+            <RadioButton
+                android:id="@+id/radio_modification_la"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/modification" />
+
+            <RadioButton
+                android:id="@+id/radio_fuite_la"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fuite" />
+
+        </RadioGroup>
+
+        <!-- ٦ - زر فحص الملف -->
+        <Button
+            android:id="@+id/btn_inspecter_la"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/inspecter"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1D4ED8"
+            android:minHeight="56dp" />
+
+    </LinearLayout>
+
+</ScrollView>
