@@ -1,47 +1,20 @@
+
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Nom de l'application -->
     <string name="app_name">Douane Temporelle</string>
 
-    <!-- Activité 3 : Résultat et verdict -->
-    <string name="message_missing">Informations manquantes</string>
-    <string name="message_invalid_name">Nom du voyageur invalide</string>
-    <string name="verdict_approved">VOYAGE APPROUVE</string>
-    <string name="verdict_refused">VOYAGE REFUSE</string>
-    <string name="message_approved">Bon voyage %1$s !</string>
-    <string name="message_refused">%1$s est en etat d'arrestation temporelle</string>
-    <string name="new_traveler">Nouveau voyageur</string>
-    <string name="verdict">VERDICT</string>
-    <string name="resultat_voyage">Résultat du voyage</string>
+    <string name="verdict">Verdict du voyage</string>
+    <string name="resultat_voyage">Résultat de votre demande</string>
     <string name="nouveau_voyageur">Nouveau voyageur</string>
 
-    <!-- Activité 2 : Passeport temporel -->
-    <string name="passeport_yo">Passeport temporel</string>
-    <string name="titre_passeport_yo">PASSEPORT TEMPOREL</string>
-    <string name="nom_yo">Nom :</string>
-    <string name="naissance_yo">Naissance :</string>
-    <string name="destination_yo">Destination :</string>
-    <string name="age_yo">Age temporel :</string>
-    <string name="motif_yo">Motif :</string>
-    <string name="analyse_yo">Analyse temporelle</string>
-    <string name="approuver_yo">Approuver le saut temporel</string>
-    <string name="refuser_yo">Refuser (Risque de paradoxe)</string>
+    <string name="verdict_approved">VOYAGE APPROUVÉ</string>
+    <string name="verdict_refused">VOYAGE REFUSÉ</string>
 
-    <!-- Activité 1 : Formulaire -->
-    <string name="titre">DOUANE TEMPORELLE</string>
-    <string name="description">Enregistrement du voyageur</string>
-    <string name="nom">Nom du voyageur</string>
-    <string name="hint_nom">Exemple : Ahmed</string>
-    <string name="naissance">Année de naissance</string>
-    <string name="hint_naissance">Exemple : 2000</string>
-    <string name="destination">Année de destination</string>
-    <string name="hint_destination">Exemple : 2050</string>
-    <string name="motif">Motif du voyage</string>
-    <string name="tourisme">Tourisme</string>
-    <string name="modification">Modification du passé</string>
-    <string name="fuite">Fuite</string>
-    <string name="inspecter">Inspecter le profil</string>
+    <string name="message_approved">Félicitations %1$s, votre voyage est approuvé.</string>
+    <string name="message_refused">Désolé %1$s, votre voyage est refusé.</string>
+
+    <string name="message_missing">Informations manquantes.</string>
+    <string name="message_invalid_name">Nom du voyageur invalide.</string>
 
 </resources>
-
-
